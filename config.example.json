@@ -1,0 +1,22 @@
+{
+  "data_dir": ".data",
+  "controller_agent": "codex",
+  "prompt_reviewer_agent": "claude",
+  "visual_reviewer_agent": null,
+  "generator_agent": "muse",
+  "generator_mode": "delegate",
+  "reviewer_mode": "text_only",
+  "enabled_generators": ["muse"],
+  "gateway": "mcp",
+  "hub_command": "<Hub虚拟环境Python绝对路径>",
+  "hub_args": ["-m", "agent_hub", "mcp"],
+  "same_host": true,
+  "trusted_artifact_roots": ["<与Hub确认的产物目录绝对路径>"],
+  "policy_version": "1.0",
+  "compiler_version": "1.0",
+  "max_generations": 3,
+  "max_revisions": 3,
+  "timeout_seconds": 600,
+  "max_file_bytes": 100000000,
+  "ffprobe_command": "ffprobe"
+}

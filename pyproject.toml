@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "media-flow"
+version = "0.1.0"
+description = "经审核的图片与视频工作流，使用独立 Agent Hub MCP 服务"
+requires-python = ">=3.12"
+dependencies = ["mcp==1.30.0", "Pillow>=11,<13", "jsonschema>=4.23,<5", "httpx==0.28.1"]
+
+[project.scripts]
+media-flow = "media_flow.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[dependency-groups]
+dev = [
+    "pyyaml>=6,<7",
+]

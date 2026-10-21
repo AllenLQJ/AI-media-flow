@@ -1,0 +1,9 @@
+{
+  "data_dir": "../.data/fake-demo",
+  "gateway": "fake",
+  "controller_agent": "codex",
+  "prompt_reviewer_agent": "claude",
+  "generator_agent": "muse",
+  "max_generations": 2,
+  "max_revisions": 2
+}

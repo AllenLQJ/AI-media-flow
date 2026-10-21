@@ -1,0 +1,11 @@
+{
+  "goal": "二次元人物单张图片流程测试；fake不验证画面效果",
+  "media_type": "image",
+  "action": "generate",
+  "model": "fake-anime-v1",
+  "prompt": "原创成年二次元女剑士，深蓝短发、琥珀色眼睛、白色短外套与深色长裤，半身三分之二侧视，右手自然握住剑柄。背景为简洁浅灰色，柔和侧光，清晰干净的赛璐璐线条。",
+  "parameters": {"width": 512, "height": 512, "format": "png", "count": 1},
+  "references": [],
+  "style_constraints": ["发色、瞳色和服装描述保持一致", "二维赛璐璐画风"],
+  "acceptance": ["角色关键特征符合描述", "面部和可见手部没有明显结构错误", "线条与光影风格一致", "一张图片只验证单图质量，不声称跨图一致性"]
+}
